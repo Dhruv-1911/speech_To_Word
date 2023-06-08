@@ -27,6 +27,7 @@ body {
     border: none;
     font-size: large;
     background-color: #ECE8DD;
+    resize: none;
 }
 
 .speck,

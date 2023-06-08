@@ -12,14 +12,12 @@ speak.addEventListener("click", (e) => {
     e.preventDefault();
     sr.start();
     instruction.innerHTML = "Voice Recognition is Now ON"
-    // speak.style.backgroundColor ='rgb(117, 180, 117)';
 })
 
 stop.addEventListener("click", (e) => {
     e.preventDefault();
     sr.stop();
     instruction.innerHTML = "Voice Recognition is OFF"
-    // stop.style.backgroundColor ='rgb(187, 96, 96)'
 })
 
 sr.onresult = res => {
